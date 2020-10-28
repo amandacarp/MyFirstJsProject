@@ -1,28 +1,28 @@
-//name variable
+//step 4 name variable
 var myName = "Amanda";
 
-//states constant
+//step 5 states constant
 const states = 50;
 
-//adds two numbers together
+//step 6 adds two numbers together
 var sum = 5 + 4;
 
-//hello world function
+//step 8a hello world function
 function sayHello() {
     alert("Hello World!");
 }
  
-// Calling function
+//step 8b Calling function
 sayHello(); 
 
-//check age function
+//step 9a check age function
 function checkAge(name, age){
     if (age < 21) {
         alert("Sorry " + name + ", you aren't old enough to view this page!");
     }
 }
 
-//run through names in checkage function
+//step 9b run through names in checkage function
 var charles = {
     name: "Charles",
     age: 21
@@ -48,15 +48,15 @@ checkAge(abby.name, abby.age);
 checkAge(james.name, james.age);
 checkAge(john.name, john.age);
 
-//favorite veggie array
+//step 10a favorite veggie array
 var veggies = ["corn", "eggplant", "broccoli"];
 
-//loop through veggies
+//step 10b loop through veggies
 for (let i = 0; i < veggies.length; i++) {
     console.log(veggies[i]);
 }
 
-//create pet object
+//step 11 create pet object
 var pet = {
     name: "Porsche",
     breed: "DSH"
@@ -64,7 +64,7 @@ var pet = {
 
 console.log(pet.name, pet.breed);
 
-//create an array of 5 objects
+//step 12a create an array of 5 objects
 var friends = [
     {
         name: "Kevin",
@@ -88,12 +88,12 @@ var friends = [
     }
 ]
 
-//loop checkage function for each object
+//step 12b loop checkage function for each object
 for (var i = 0; i < friends.length; i++) {
     checkAge(friends[i].name, friends[i].age);
 }
 
-//getlength function
+//step 14 getlength function
 function getLength(string){
     return string.length;
 }
